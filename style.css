@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+ 
+@import url('https://fonts.cdnfonts.com/css/miama');
+.miama-font{
+font-family: 'Miama', sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 95px;
+}
+.inter-normal{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+ .font{
+    font-family: miama;
+ }
+  /* common style   */
+  .display-flex{
+    display: flex;
+}
+.center{
+    text-align: center;
+}
+.all-section{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.bg-light{
+    background:rgba(17, 17, 17, 1);
+
+}
+
+.all-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57px;
+    margin-bottom: 30px;
+}
+
+.all-description{
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 14px;
+    line-height: 24px;
+} 
+
+.all-center{
+    text-align: center;
+}
+
+/* header section style start  */
+.header{
+    justify-content: space-between;
+}
+.heading{
+    font-size:36px ;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 43px;
+    color: rgba(230, 83, 60, 1);
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 12px;
+   
+    align-items: center;
+    justify-content: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav{
+    align-items: center;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    padding-top: 57px;
+  
+}
+ul{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.mobileNav{
+    color: white;
+     display: none; 
+     justify-content: space-between;
+}
+a.active{
+    background-color: rgba(230, 83, 60, 1);
+   border-radius: 40px;
+   padding: 8px 20px;
+  }
+
+/* banner style section  */
+.banner-title{
+color: white;
+font-size: 78px;
+line-height: 94px;
+font-weight: 900;
+width: 80%;
+margin-top: 98px;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:16px ;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+.banner-btn1{
+    background-color:rgba(230, 83, 60, 1);
+   color: white;
+   padding: 16px 40px;
+   border-radius: 42px;
+   border: none;
+   margin-left: 10px;
+}
+.banner-btn2{
+    background-color:transparent;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: none;
+    margin-left: 10px; 
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.banner-img{
+margin-top: 32px;
+}
+
+.video-tutorial-button1 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #fff; 
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  height:70px ;
+  width: 150px;
+    padding-top: 3px;
+    position: absolute;
+    top: -190px; 
+    left: -90px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #FF4D4D;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-tutorial-button2{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #fff; 
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  height:70px ;
+  width: 150px;
+    padding-top: 20px;
+    position: absolute;
+bottom: 380px;
+    right: -50px;
+}
+
+/* Change Your Habits styles start  */   
+.img-sizing{
+   height: 180px;
+   width: 180px;
+   border-radius: 50%;
+    display: inline-block;   
+}
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+}
+.text-colar{
+    color: white;
+    margin-bottom: 10px;
+}
+.description-colar{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* Change Your Habits styles end */
+
+/* Run an Extra Mile Easily style start  */
+
+.running-man{
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+   margin-top:120px ;
+   align-items: center;
+   gap: 80px;
+    
+  }
+  
+  .raidous{
+    border-radius: 18px;
+  margin: 40px;
+  }
+    
+  .runnin-man-contenar{
+    margin-left: 54px;
+    margin-bottom: 40px;
+    
+  }
+  #contan{
+    border-radius: 18px;
+    height: 312px;
+    width: 366px;
+  }
+  .runingmanBtn{
+    background-color:rgba(230, 83, 60, 1);
+   color: white;
+   padding: 16px 40px;
+   border-radius: 42px;
+   border: none;
+  margin-top: 34px;
+}
+/* Run an Extra Mile Easily style end */
+
+/* our popular section start */
+.image-size{
+    height: 195px;
+    width: 380px;
+    margin-right: 20px;
+}
+
+.gym-title{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.our-popular{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.our-classes{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/* our popular section end*/
+/* Bmi caluculator start */
+.bmi-bacround{
+    background-color: rgba(34, 34, 34, 1);
+
+}
+
+/* Bmi caluculator start */
+
+.bmi-gap{
+    /* margin-left: 190px; */
+    /* margin-right: 190px; */
+    padding: 80px 0;
+}
+
+.container {
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    
+}
+
+ .bmi-calculator {
+   margin-left: 250px; 
+
+}
+
+.bmi-chart h2, .bmi-calculator h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+table {
+    
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);;
+}
+
+form {
+    
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3A3A3A;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+select{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3A3A3A;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+
+}
+.section1{
+width: 440px;
+}
+.section2{
+    width:220px ;
+}
+button {
+    background-color: rgba(230, 83, 60, 1);
+   border: none;
+   color: white;
+   padding: 16px 40px;
+   border-radius: 42px;
+
+}
+
+
+
+/* Bmi caluculator start end */
+
+.img-size{
+    width:325px;
+    height: 272px;
+    border-radius: 10Px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    }
+    
+    .bg-color{
+      background-color: rgba(34, 34, 34, 1);
+      border-radius: 18px;
+    
+    }
+    
+    .position{
+     position: absolute;
+     margin-left: 15px;
+    bottom: 20px;
+    left: 10px;
+
+
+    }
+    .trainer-title{
+      color: white;
+      font-size: 16px;
+    }
+    .trainer-description{
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 16px;
+    }
+    .team{
+      text-align: center;
+      margin-bottom: 80px;
+      margin-top: 50px;
+    }
+    .trainer{
+        position: relative;
+    }
+    
+
+    /* footer style start  */
+    .main-footer{
+  
+        height:400px ;
+        justify-content: space-between;
+         padding-left: 190px;
+        padding-right: 190px; 
+        padding-top: 70px;
+        margin-top: 75px;
+      
+      }
+      footer{
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      
+      .footer-title{
+        color: white;
+        font-size: 32px;
+      }
+      .footer-description{
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 23px;
+        font-weight: 400;
+      }
+      .single-title{
+      font-size:70px ;
+      color: rgba(230, 83, 60, 1);
+      }
+      .footer-description-single{
+        color: rgba(255, 255, 255, 0.6);
+        font-size:14px;
+      }
+      .main-footer{
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      /* margin-bottom: 100px; */
+      padding-top: 100px;
+      }
+
+
