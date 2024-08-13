@@ -390,6 +390,11 @@ button {
       border-radius: 18px;
     
     }
+    .bg-color2{
+        background-color: rgba(34, 34, 34, 1);
+ 
+      
+      }
     
     .position{
      position: absolute;
@@ -428,10 +433,7 @@ button {
         /* margin-top: 75px; */
       
       }
-      footer{
-        background-color: rgba(255, 255, 255, 0.1);
-      }
-      
+     
       .footer-title{
         color: white;
         font-size: 32px;
@@ -452,7 +454,7 @@ button {
       .main-footer{
       border-bottom: 1px solid rgba(255, 255, 255, 0.6);
       /* margin-bottom: 100px; */
-      padding-top: 100px;
+      /* padding-top: 100px; */
       }
 
 
