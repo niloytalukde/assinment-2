@@ -48,6 +48,8 @@ margin: 15px;
 }
 .video-tutorial-button1{
     left: 0px;
+    justify-content: center;
+    align-items: center;
 }
 .video-tutorial-button2{
     height:60px ;
